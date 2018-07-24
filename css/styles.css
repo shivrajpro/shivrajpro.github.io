@@ -1,0 +1,252 @@
+body{
+    font-family: 'Nova Square', cursive;
+    font-size: 16px;
+}
+.board{
+    font-size: 18px;
+    vertical-align: -10px;
+}
+i{
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24),0 0 4px 0 rgba(0,0,0,0.14);
+}
+.logo{
+    margin-top: 11px;
+    padding: 5px 5px 5px 15px;
+    text-align: center;
+}
+
+.logo > a:hover{
+    text-decoration: none;
+}
+
+.brand-logo{
+    border: 1px solid #2196f3;
+    border-radius: 50%;
+    padding: 15px;
+    color:#fff;
+    background-color: #2196f3;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24),0 0 4px 0 rgba(0,0,0,0.14);
+    font-size: 18px;
+}
+.small-text{
+    font-size: 16px;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+
+.down-btn{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+.down-icon a{
+    font-size: 300%;
+    color:#2196f3;
+    text-decoration: none;   
+}
+
+.fill-screen{
+    padding-top: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+.title-row{
+    position: relative;
+    min-height: 300px;
+}
+.title{
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+
+.first-name{
+    margin-top: 160px;
+    color:#fff;
+    font-size: 300%;
+    
+}
+.last-name{
+    color: black;
+    font-weight: 900;
+    background-color: #2196f3;
+}
+
+.fixed-bg{
+    background-attachment: fixed;
+}
+.sec-header{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.table-custom{
+    font-size: 120%;
+}
+
+.table-custom dt{
+    text-align: left;
+    font-weight: bold;
+}
+
+.table-custom dd{
+    text-align: left;
+}
+.social a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.card{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    transition: all 0.8s ease;
+    transform-style: preserve-3d;
+}
+
+.front, .back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.front{
+    background:#2196f3;
+}
+
+.back{
+    background:lightgray;
+    transform: rotateY(180deg);
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+.education{
+    text-align: center;
+}
+
+.card-container{
+    perspective: 700px;
+    -webkit-perspective: 700px;
+}
+
+article#skills-progress{
+    padding: 3px 10px 0px;
+}
+
+div.progress{
+    font-weight: bold;
+    color: #fff;
+    background-color: #f3f3f3;
+    border: none;
+    box-shadow: none;
+    height: 1.5em;
+}
+
+div.progress-bar > span{
+    float: left;
+    position: relative;
+    top:4px;
+    left: 2%;
+}
+
+.progress-bar{
+    font-size: 100%;
+}
+
+.skill-level{
+    font-size:90%;
+    color:#0fff04;
+    padding-right: 2%;
+}
+
+.skill-tech{
+    width: 100%;
+    margin-bottom: 50px;
+    padding:20px;
+    text-align: center;
+}
+.text-banner{
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.box{
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24),0 0 4px 0 rgba(0,0,0,0.14);
+    box-sizing: border-box;
+    max-width: 920px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.box-slim{
+    padding: 40px;
+    max-width: 920px;
+}
+
+
+.portfolio-sections{
+    margin-bottom: 50px;
+}
+
+h3 > span, .nav a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  h3 > span:hover, .nav a:hover {
+    color: #000;
+  }
+  
+  h3 > span:before, .nav a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  h3 > span:hover:before, .nav a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+@media (max-width:788px){
+    .fixed-bg{
+        background-attachment: scroll;
+    }
+
+    .sec-header >h3{
+        border-top: 1px solid black;
+        padding-top: 15px;
+    }
+}
