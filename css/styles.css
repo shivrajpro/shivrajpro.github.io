@@ -252,7 +252,6 @@ h3 > span, .nav a {
 
 .designation{
     font-size: 3rem;
-    font-weight: 900;
     text-decoration: underline;
 }
 
@@ -267,7 +266,7 @@ h3 > span, .nav a {
     }
 
     .project-duration{
-        margin: 16px auto;
+        margin: 20px 20px;
     }    
 }
 
