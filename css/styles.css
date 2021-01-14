@@ -256,3 +256,9 @@ h3 > span, .nav a {
         padding-top: 15px;
     }
 }
+
+@media (min-width:788px){
+    .box-slim{
+        margin: 10px auto;
+    }
+}
