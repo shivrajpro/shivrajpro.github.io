@@ -109,6 +109,10 @@ i{
     border: 1px solid black;
 }
 
+#about{
+    padding: 20px;
+}
+
 .card{
     display: inline-block;
     position: relative;
@@ -244,6 +248,12 @@ h3 > span, .nav a {
     float: right;
     font-size: 70%;
     margin-top: 8px;
+}
+
+.designation{
+    font-size: 3rem;
+    font-weight: 900;
+    text-decoration: underline;
 }
 
 @media (max-width:788px){
