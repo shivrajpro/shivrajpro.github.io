@@ -247,7 +247,7 @@ h3 > span, .nav a {
 .project-duration{
     float: right;
     font-size: 70%;
-    margin-top: 8px;
+    margin-top: 16px;
 }
 
 .designation{
@@ -265,6 +265,10 @@ h3 > span, .nav a {
         border-top: 1px solid black;
         padding-top: 15px;
     }
+
+    .project-duration{
+        margin: 16px auto;
+    }    
 }
 
 @media (min-width:788px){
