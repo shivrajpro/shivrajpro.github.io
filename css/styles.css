@@ -145,10 +145,10 @@ i{
     text-align: center;
 }
 
-.card-container{
+/* .card-container{
     perspective: 700px;
     -webkit-perspective: 700px;
-}
+} */
 
 article#skills-progress{
     padding: 3px 10px 0px;
@@ -239,6 +239,12 @@ h3 > span, .nav a {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+
+.project-duration{
+    float: right;
+    font-size: 70%;
+    margin-top: 8px;
+}
 
 @media (max-width:788px){
     .fixed-bg{
