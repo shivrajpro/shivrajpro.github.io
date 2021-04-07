@@ -89,6 +89,13 @@ i{
 
 .table-custom{
     font-size: 120%;
+    overflow: hidden;
+    height: 340px;
+    transition: height .3s ease-in-out;
+}
+
+.table-custom.collapse-card{
+    height: 85px;
 }
 
 .table-custom dt{
@@ -206,6 +213,7 @@ div.progress-bar > span{
 .box-slim{
     padding: 40px;
     max-width: 920px;
+    position: relative;
 }
 
 
@@ -253,6 +261,20 @@ h3 > span, .nav a {
 .designation{
     font-size: 3rem;
     text-decoration: underline;
+}
+
+.toggle-card{
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.toggle-card i{
+    box-shadow: none;
+    transition: all .3s ease-in-out;
 }
 
 @media (max-width:788px){
