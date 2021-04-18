@@ -90,12 +90,12 @@ i{
 .table-custom{
     font-size: 120%;
     overflow: hidden;
-    height: 340px;
+    max-height: 410px;
     transition: height .3s ease-in-out;
 }
 
 .table-custom.collapse-card{
-    height: 85px;
+    max-height: 95px;
 }
 
 .table-custom dt{
